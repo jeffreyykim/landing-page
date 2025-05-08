@@ -97,11 +97,17 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #f9faf8;
+    gap: 36px;
+    padding-top: 36px;
 }
 
 .sri {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 
@@ -112,13 +118,23 @@ button {
     
 }
 
+.boxes img {
+    border: 2px solid #3882F6;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    gap: 16px;
+}
 
 .first, .second, .third, .fourth {
     display: flex;
+    flex-direction: column;
     flex: 1 1 250px;
-    max-width: 100px;
+    max-width: 200px;
     margin: 0;
     padding: 0;
-    border: 2px solid blue;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
 }
 
